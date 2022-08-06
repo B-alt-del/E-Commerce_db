@@ -60,7 +60,7 @@ router.put('/:id', (req, res) => {
         res.status(404).json({ message: 'No Category found with that ID.' });
         return;
       }
-      res.json(categoryData);
+      res.json("catergory updated");
     })
     .catch(err => {
       console.log(err);
@@ -79,7 +79,7 @@ router.delete('/:id', (req, res) => {
         res.status(404).json({ message: 'No Category found with that ID.' });
         return;
       }
-      res.json(categoryData);
+      res.json("category deleted");
     })
     .catch(err => {
       console.log(err);

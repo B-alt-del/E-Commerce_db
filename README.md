@@ -1,9 +1,5 @@
 # [E-Commerce-Backend](https://github.com/B-alt-del/E-Commerce_db)
 
-## [Usage](https://brads-chill-notes.herokuapp.com/api/notes)
-
-We are given working seed data and are expected to make a backend that can handle this data and create api routes for get post put and delete
-
 ## Table Of Content
 * [General Info](#general-info)
 * [Technologies](#technologies)
@@ -12,13 +8,6 @@ We are given working seed data and are expected to make a backend that can handl
 * [License](#license)
 * [Questions](#questions)
 
-## General Info
-Take a working API and configure it to use Sequelize to interact with a MySQL database.<br>
-
-<img src=./assets/images/screenshot.png>
-
-Demonstration Video
-add link to video here
 
 ## Technologies
 Project is created with 
@@ -42,8 +31,21 @@ node server.js
 ```
 Use Insomnia to GET, POST, PUT and DELETE from different routes.
 
-## Usage
-This app will allow the user to access a backend with their ecommerce needs like, categories, products and tags.
+
+## General Info
+Configure the backend to allow insomnia to make .<br>
+
+<img src=./assets/images/screenshot.PNG>
+<img src=./assets/images/screenshot2.PNG>
+<img src=./assets/images/screenshot3.PNG>
+
+
+## [Usage](https://drive.google.com/file/d/1yFja4H6i3IWNfImUDL4JT4Axyp5pzH3h/view) 
+
+*Click Usage tab for video walkthrough*
+
+We are given working seed data and are expected to make a backend that can handle this data and create api routes for get post put and delete
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
