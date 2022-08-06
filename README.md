@@ -19,8 +19,6 @@ Project is created with
 * [Dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Installation
-To get started clone this repository using 
-<br>
 Fist run to seed the database
 ```terminal
 node seeds/index.js
@@ -35,9 +33,9 @@ Use Insomnia to GET, POST, PUT and DELETE from different routes.
 ## General Info
 Configure the backend to allow insomnia to make .<br>
 
-<img src=./assets/images/screenshot.PNG>
-<img src=./assets/images/screenshot2.PNG>
-<img src=./assets/images/screenshot3.PNG>
+<img src=Assets/images/screenshot.PNG>
+<img src=Assets/images/screenshot2.PNG>
+<img src=Assets/images/screenshot3.PNG>
 
 
 ## [Usage](https://drive.google.com/file/d/1yFja4H6i3IWNfImUDL4JT4Axyp5pzH3h/view) 
