@@ -1,5 +1,8 @@
-# E-Commerce-Backend
-The challenge is to build the back end for an e-commerce site.
+# [E-Commerce-Backend](https://github.com/B-alt-del/E-Commerce_db)
+
+## [Usage](https://brads-chill-notes.herokuapp.com/api/notes)
+
+We are given working seed data and are expected to make a backend that can handle this data and create api routes for get post put and delete
 
 ## Table Of Content
 * [General Info](#general-info)
@@ -10,12 +13,12 @@ The challenge is to build the back end for an e-commerce site.
 * [Questions](#questions)
 
 ## General Info
-We’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database. This application won’t be deployed so i’ll show a walkthrough video that demonstrates its functionality.<br>
-Image showcasing the application running in Insomnia.
-<img src=./assets/one.png>
+Take a working API and configure it to use Sequelize to interact with a MySQL database.<br>
+
+<img src=./assets/images/screenshot.png>
 
 Demonstration Video
-<img src=./assets/demogif.gif>
+add link to video here
 
 ## Technologies
 Project is created with 
@@ -29,38 +32,18 @@ Project is created with
 ## Installation
 To get started clone this repository using 
 <br>
+Fist run to seed the database
 ```terminal
-git clone **<<putgithublinkhere>>**
+node seeds/index.js
 ```
-Both Node.js and MySQL must be installed on your computer.
-
-Install dependencies 
-```terminal
-npm init --y
-``` 
-```terminal
-npm install express sequelize mysql2
-```
-Open up MySQL shell and input 
-```terminal
-source db/schema.sql
-```
-and 
-```terminal
-use ecommerce_db
-```
-Then quit MySQL shell and input the following in your terminal
-```terminal
-npm run seed
-```
-to start running application simply input 
+Then run to start server and open api routes
 ```terminal
 node server.js
 ```
-Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
+Use Insomnia to GET, POST, PUT and DELETE from different routes.
 
 ## Usage
-The application is used to GET data for each route(categories, products, or tags) as well as create, update, and delete data in those routes.
+This app will allow the user to access a backend with their ecommerce needs like, categories, products and tags.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
